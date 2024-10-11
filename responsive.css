@@ -1,0 +1,62 @@
+/* Exprience-section */
+@media (min-width: 768px) {
+    .swiper-button {
+        font-size: 24px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .about_skills {
+        font-size: 24px;
+    }
+
+    .project-item {
+        width: 90%;
+    }
+
+    .submit_btn {
+        justify-content: center;
+    }
+
+    .contact_info {
+
+        margin: 56px auto;
+    }
+
+    .footer_links {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .d-lptp {
+        display: none;
+    }
+
+    .d-mob {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 577px) {
+
+    .about_me_para,
+    .exp_role,
+    .exp_date,
+    .exp_company_name,
+    .exp_heading,
+    .contact_info_title {
+        text-align: center;
+    }
+
+    .exp_company_name {
+        margin: 10px 0px;
+    }
+
+    .resume_btn {
+        width: 100%;
+        margin: 0px auto;
+    }
+}
